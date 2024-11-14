@@ -46,7 +46,6 @@ jobs:
       contents: write
     steps:
     - name: Check Out
-      if: check-out
       uses: actions/checkout@v4
 
     - name: Update and install required packages
